@@ -12,6 +12,7 @@ from sklearn import linear_model
 
 # In[ ]:
 
+# Method of Bastani and Bayati (2015). Online decision-making with high-dimensional covariates.
 
 class LassoBandit:
     def __init__(self,q,h,lam1,lam2,d,N):
@@ -63,6 +64,8 @@ class LassoBandit:
 
 
 # In[ ]:
+
+# Method of Kim and Paik (2019). Doubly-Robust Lasso Bandit.
 
 
 class DRLassoBandit2:
